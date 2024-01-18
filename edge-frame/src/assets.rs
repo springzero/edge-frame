@@ -1,4 +1,4 @@
-pub const MAX_ASSETS: usize = 10;
+pub const MAX_ASSETS: usize = 40;
 
 #[cfg(feature = "assets-serve")]
 pub mod serve {
@@ -57,6 +57,126 @@ pub mod serve {
                     env!(concat!($module, "_EDGE_FRAME_ASSET_URI_9")),
                     include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_9"))),
                 ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_10")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_10"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_11")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_11"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_12")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_12"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_13")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_13"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_14")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_14"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_15")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_15"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_16")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_16"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_17")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_17"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_18")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_18"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_19")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_19"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_20")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_20"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_21")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_21"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_22")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_22"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_23")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_23"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_24")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_24"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_25")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_25"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_26")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_26"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_27")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_27"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_28")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_28"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_29")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_29"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_30")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_30"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_31")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_31"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_32")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_32"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_33")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_33"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_34")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_34"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_35")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_35"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_36")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_36"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_37")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_37"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_38")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_38"))),
+                ),
+                (
+                    env!(concat!($module, "_EDGE_FRAME_ASSET_URI_39")),
+                    include_bytes!(env!(concat!($module, "_EDGE_FRAME_ASSET_DATA_39"))),
+                )
             ]
         };
     }
