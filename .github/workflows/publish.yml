@@ -5,7 +5,7 @@ on:
 
 env:
   rust_toolchain: nightly
-  CRATE_NAME: edge-frame
+  CRATE_NAME: edge-frame-stable
 
 jobs:
   publish:
@@ -25,7 +25,7 @@ jobs:
       - name: Login
         run: cargo login ${{ secrets.crates_io_token }}
       - name: Build | Publish
-        run: cd edge-frame; cargo publish --target wasm32-unknown-unknown
+        run: cd edge-frame-stable; cargo publish --target wasm32-unknown-unknown
       - name: Get the crate version from cargo
         run: |
           version=$(cargo metadata --format-version=1 --no-deps | jq -r ".packages[] | select(.name == \"${{env.CRATE_NAME}}\") | .version")

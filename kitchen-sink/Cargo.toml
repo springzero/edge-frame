@@ -21,7 +21,7 @@ wasm-logger = "0.2"
 yew = { version = "0.21", default-features = false, features = ["csr"] }
 yew-router = "0.18"
 yewdux-middleware = "0.2"
-edge-frame = { path = "../edge-frame" }
+edge-frame-stable = { path = "../edge-frame-stable" }
 
 # The `console_error_panic_hook` crate provides better debugging of panics by
 # logging them with `console.error`. This is great for development, but requires

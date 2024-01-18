@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./edge-frame-stable/Cargo.toml"
+    ]
+}

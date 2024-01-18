@@ -2,7 +2,7 @@
 resolver = "2"
 
 members = [
-    "edge-frame",
+    "edge-frame-stable",
     "kitchen-sink",
 ]
 

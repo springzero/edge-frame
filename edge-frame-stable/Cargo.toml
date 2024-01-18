@@ -1,5 +1,5 @@
 [package]
-name = "edge-frame"
+name = "edge-frame-stable"
 version = "0.7.0"
 authors = ["Ivan Markov <ivan.markov@gmail.com>"]
 edition = "2018"
